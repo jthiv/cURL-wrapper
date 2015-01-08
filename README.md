@@ -14,6 +14,7 @@ https://sunlightlabs.github.io/congress/
 You will need a valid API key for this to work.
 ---------------------------------------------------------
 
+```
 $url_base = "https://congress.api.sunlightfoundation.com";
 $api_key = "***************";
 $method ="/legislators";
@@ -44,4 +45,4 @@ catch(Exception $e)
 {
     echo $e->getMessage();
 }
-
+```
